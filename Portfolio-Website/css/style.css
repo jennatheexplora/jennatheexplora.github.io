@@ -1,5 +1,5 @@
-/*import link for Montserrat font from fonts.google.com*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*import link for Nunito font from fonts.google.com*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 /***** GENERAL STYLING *****/
 html {
@@ -16,8 +16,8 @@ body {
     /*this causes a 3 second fade-in*/
     letter-spacing: .2vw;
     /*vw is a relative measurement, 1vw is equal to 1% of viewport width*/
-    font-family: Avant Garde, Helvetica;
-    font-size: 1.5vw;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.25vw;
     overflow-x: hidden;
     /* this prevents the horizontal scroll bar from appearing when the quote is hovered over*/
     user-select: none;
@@ -34,10 +34,11 @@ body.fade-out {
 h1 {
     text-transform: uppercase;
     /* Capitalizing all h1 headings */
-    font-family: "Montserrat", sans-serif;
+    font-family: "Nunito", sans-serif;
     /* Sets the font family of all h1 headings */
     text-align: center;
     /* Centering all h1 elements */
+    font-size: 44px;
     margin-top: 3%;
     /* Adds a small margin above h1 elements */
     color: #1a1a1a;
@@ -63,12 +64,12 @@ h1:hover {
 
 /* Paragraph elements */
 p {
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: "Nunito", sans-serif;
     text-align: justify;
     /* Justify text within paragraph elements */
     letter-spacing: .1vw;
     /* This expands the text slightly */
-    font-size: 2.5vw;
+    font-size: 1.25vw;
     padding-left: 1vw;
     /* Adds padding to the left of the paragraph element */
     padding-right: 1vw;
@@ -190,7 +191,7 @@ footer {
     /* This adds padding around our text */
     text-decoration: none;
     /* This gets rid of the underlines under the text on our navbar */
-    font-family: Avant Garde, Helvetica;
+    font-family: "Nunito", sans-serif;
     /* This specifies the font family for text on our navbar */
     font-size: 1.5vw;
     /* This specifies the font size for text on our navbar */
@@ -374,7 +375,7 @@ footer {
     /*sets text at bottom of image*/
     width: 100%;
     text-align: center;
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: "Nunito", sans-serif;
     letter-spacing: .1vw;
     font-size: 1.5vw;
     background-color: rgba(0, 0, 0, 0.75);
@@ -625,55 +626,55 @@ button:hover,
 /*Media rules for paragraph font size for different screen sizes*/
 @media screen and (max-width: 527px) {
     p {
-        font-size: 3.75vw;
+        font-size: 3.5vw;
     }
 }
 
 @media screen and (min-width: 528px) and (max-width: 660px) {
     p {
-        font-size: 3.5vw;
+        font-size: 3.25vw;
     }
 }
 
 @media screen and (min-width: 661px) and (max-width: 799px) {
     p {
-        font-size: 2.75vw;
+        font-size: 2.5vw;
     }
 }
 
 @media screen and (min-width: 800px) and (max-width: 924px) {
     p {
-        font-size: 2.5vw;
+        font-size: 2.25vw;
     }
 }
 
 @media screen and (min-width: 925px) and (max-width: 1050px) {
     p {
-        font-size: 2.25vw;
+        font-size: 2vw;
     }
 }
 
 @media screen and (min-width: 1051px) and (max-width: 1310px) {
     p {
-        font-size: 2vw;
+        font-size: 1.75vw;
     }
 }
 
 @media screen and (min-width: 1311px) and (max-width: 1535px) {
     p {
-        font-size: 1.75vw;
+        font-size: 1.5vw;
     }
 }
 
 @media screen and (min-width: 1536px) and (max-width: 2269px) {
     p {
-        font-size: 1.5vw;
+        font-size: 1.35vw;
     }
 }
 
 @media screen and (min-width: 2270px) {
     p {
-        font-size: 1.35vw;
+        font-size: 1.15vw;
     }
 }
 
