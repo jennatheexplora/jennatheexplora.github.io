@@ -221,7 +221,7 @@ footer {
 
 /* Navbar hover effects */
 .Navbar a:hover {
-    background-color: #f4f4f4;
+    background-color: #AFA8BA;
     /* Defines the background color that will display when you hover over the link */
     color: black;
     /* This defines the font color that will display when navbar a elements are hovered over */
@@ -234,7 +234,7 @@ footer {
 /* Navbar home button */
 .Navbar a.active {
     /* This targets the a element on the navbar with the "active" class */
-    background-color: darkgray;
+    background-color: #AFA8BA;
 }
 
 /***** END OF NAVBAR STYLING *****/
@@ -297,7 +297,7 @@ footer {
 
 /*****SLIDESHOW STYLING*****/
 #Slideshow_Background {
-    background: rgba(255, 255, 255, 0.35);
+    background: #4a4453;
 }
 
 .mySlides {
@@ -464,7 +464,7 @@ footer {
     width: 50%;
     padding: 1.6%;
     height: 450px;
-    background-color: #4d4d4d;
+    background-color: #AFA8BA;
 }
 
 /* This inserts something after the content of selected elements (in this case the elements with class "Row") */
