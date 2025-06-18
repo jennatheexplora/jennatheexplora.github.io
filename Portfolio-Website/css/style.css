@@ -31,21 +31,28 @@ body.fade-out {
 }
 
 /* Heading 1 elements */
-h1 {
+h1, h2 {
     text-transform: uppercase;
-    /* Capitalizing all h1 headings */
+    /* Capitalizing all h1 h2 headings */
     font-family: "Nunito", sans-serif;
-    /* Sets the font family of all h1 headings */
+    /* Sets the font family of all h1 h2 headings */
     text-align: center;
-    /* Centering all h1 elements */
-    font-size: 44px;
-    margin-top: 3%;
-    /* Adds a small margin above h1 elements */
+    /* Centering all h1 h2 elements */
     color: #1a1a1a;
 }
 
+h1 {
+    font-size: 48px;
+    margin-top: 3%;
+    /* Adds a small margin above h1 elements */
+}
+
+h2 {
+    font-size: 32px;
+}
+
 /* Heading 1 element hover effect */
-h1:hover {
+h1:hover, h2:hover {
     filter: grayscale(5%);
     /* Adds a slightly gray filter to the h1 headings when hovered over */
     transform: scale(1.1);
